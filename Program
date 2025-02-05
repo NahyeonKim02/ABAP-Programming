@@ -1,0 +1,14 @@
+REPORT zfibcamp_8973.
+
+INCLUDE zfibcamp_8973top.
+INCLUDE zfibcamp_8973scr.
+INCLUDE zfibcamp_8973cls.
+INCLUDE zfibcamp_8973o01.
+INCLUDE zfibcamp_8973i01.
+INCLUDE zfibcamp_8973f01.
+
+START-OF-SELECTION.
+  PERFORM get_data.
+
+END-OF-SELECTION.
+  CALL SCREEN 100.
